@@ -2,7 +2,9 @@
 
 module.exports = {
   clearMocks: true,
+  collectCoverageFrom: ['./src/**/*.js'],
   coverageDirectory: 'coverage',
+  coverageReporters: ['text'],
   coverageThreshold: {
     global: {
       branches: 100,
@@ -13,5 +15,5 @@ module.exports = {
   },
   coverageProvider: 'babel',
   testEnvironment: 'node',
-  testMatch: ['**/__tests__/**/*.[jt]s?(x)'],
+  testPathIgnorePatterns: ['/node_modules', '/test.js', '/index.js'],
 }

@@ -1,5 +1,6 @@
-import { curry2 } from './curry2'
-import { ltU } from './internal/ltU'
-import { setName } from './internal/setName'
+import { curry2 } from './curry2.js'
+import { setName } from './internal/setName.js'
+
+const ltU = (a, b) => b < a
 
 export const lt = setName(curry2(ltU), 'lt')

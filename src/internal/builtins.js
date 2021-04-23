@@ -1,8 +1,8 @@
 export const builtinArray = Array
 export const builtinIsArray = builtinArray.isArray
+export const builtinArrayFrom = builtinArray.from
 
-export const builtinNumber = Number
-export const builtinIsNaN = builtinNumber.isNaN
+export const builtinIsNaN = Number.isNaN
 
 export const builtinObject = Object
 export const builtinDefineProperty = builtinObject.defineProperty
@@ -17,3 +17,7 @@ export const builtinHasOwnProperty = builtinObjectProto.hasOwnProperty
 export const builtinObjectProtoToString = builtinObjectProto.toString
 
 export const builtinString = String
+
+export const builtinSet = Set
+
+export const builtinMap = Map

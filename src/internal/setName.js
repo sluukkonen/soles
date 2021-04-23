@@ -1,4 +1,4 @@
-import { builtinDefineProperty } from './builtins'
+import { builtinDefineProperty } from './builtins.js'
 
 export const setName =
   process.env.NODE_ENV === 'production'

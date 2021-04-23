@@ -1,4 +1,4 @@
-import { tap } from '../src/tap'
+import { tap } from '../src/tap.js'
 
 it('calls a unary function and returns the argument', () => {
   const fn = jest.fn()

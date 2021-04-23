@@ -1,5 +1,5 @@
-import { compose } from '../src/compose'
-import { inc } from '../src/inc'
+import { inc } from '../src/inc.js'
+import { compose } from '../src/compose.js'
 
 it('composes functions from right to left', () => {
   const toString = (x) => x.toString()

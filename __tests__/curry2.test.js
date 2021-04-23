@@ -1,4 +1,4 @@
-import { curry2 } from '../src/curry2'
+import { curry2 } from '../src/curry2.js'
 
 it('creates a curried function with arity of 2', () => {
   const fn = (a, b) => [a, b]
